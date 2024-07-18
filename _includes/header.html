@@ -1,0 +1,8 @@
+<header>
+    <h1>{{site.author}}</h1>
+    <h1><ul>
+      {% for item in include.header_links %}
+        <li><a href="#{{item}}">{{item}}</a></li>
+      {% endfor %}
+  </ul></h1>
+  </header>
