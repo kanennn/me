@@ -10,41 +10,16 @@ header_links: ["projects", "socials", "contact", "support"]
 <br>
 <br>
 
-# icebreakers are boring
+# doe-ray-me
 
-So I'll tell you a story:)
+{: .doublecolumn}
 
-One dark day in the middle of the night,\
-two dead boys got up to fight.\
-Back to back they faced each other.\
-They drew their swords and shot each other.\
-Two deaf policemen heard the noise;\
-they went and killed them two dead boys.\
-If you don't believe this lie is true,\
-ask the blind man, he saw it too.
+hi, i'm a real person
 
-good morning peeps
+{% include columns.html pages=site.column1 %}
 
 # things i like
 
-{: #stuff }
+{% include columns.html pages=site.column3 %}
 
--   
-
-# projects
-
-{: #projects}
-
-# socials
-
-{: #socials}
-
-# contact
-
-{: #contact}
-
-# support
-
-{: #support}
-
-You can buy me a coffee at [{{site.buymeacoffee}}]({{site.buymeacoffee}})! Although I don't drink coffee. I'll just swap it out for a tea then ;D
+{% include columns.html pages=site.column2 %}

@@ -38,7 +38,7 @@ header {
     ul {
         padding: 0;
         margin: 0;
-
+        list-style-position: outside;
         li {
             margin-left: 1em;
             display: inline;
@@ -63,15 +63,37 @@ main {
     animation-delay: 1s;
     opacity: 0;
     font-size: 2rem;
+    h2 {
+        font-weight: 200;
+        font-size: 1.5 em;
+    }
+    h1 {
+        font-size: 2.5em;
+        padding-top: 3rem;
+    }
+
+    li + li {
+        line-height: 1.3;
+        margin-top: 1em;
+    }
 }
 
-main h2 {
-    font-weight: 200;
-    font-size: 1.5 em;
+// .doublecolumn {
+//     column-count: 2;
+//     column-gap: 6rem;
+// }
+
+.inlinegrid {
+    display: grid;
+    column-gap: 6rem;
+    grid-template-columns: 2 1fr;
 }
 
-main h1 {
-    font-size: 2.5em;
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 6rem;
+    grid-auto-rows: minmax(10em, auto);
 }
 
 section.bang {
@@ -83,6 +105,24 @@ section.bang {
     font-size: 5rem;
 
     animation: $poof;
+    // .human {
+    //     color: red;
+    // }
+    // .developer {
+    //     color: blue;
+    // }
+    // .artist {
+    //     color: yellow;
+    // }
+    // .christian {
+    //     color: green($color: #000000);
+    // }
+    // .engineer {
+    //     color: white;
+    // }
+    // .entreprenuer {
+    //     color: orange;
+    // }
 }
 section.bang #one,
 section.bang #two {
@@ -91,6 +131,9 @@ section.bang #two {
 
 section.bang #three {
     font-weight: 700;
+    button {
+        all: inherit;
+    }
 }
 
 @keyframes fade {

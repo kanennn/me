@@ -12,10 +12,11 @@
   <section class="bang">
     <p>
     the <span id="one">man</span>. the <span id="two">myth</span>.<br>
-    the <span id="three">legend.</span></p>
+    the <span id="three"><button id="swap">legend</button>.</span></p>
   </section>
   <main>
     {{ content }}
   </main>
+  <script src="{{ base.url | prepend: site.url }}/assets/js/customizebang.js"></script>
 </body>
 </html>

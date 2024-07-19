@@ -1,6 +1,18 @@
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "kanenstephens.com" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "" # the name of your site, e.g. ACME Corp.
 
 author: "kanen stephens"
 buymeacoffee: "buymeacoffee.com/kanenstephens"
+
+collections_dir: collections
+collections:
+    column1:
+        output: false
+        sort_by: pos
+    column2:
+        output: false
+        sort_by: pos
+    column3:
+        ouput: false
+        sort_by: pos
