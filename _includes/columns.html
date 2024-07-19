@@ -1,5 +1,4 @@
 <div class="grid">
-    {% for i in include.pages %}
-    <div>{{ i.content }}</div>
-    {% endfor %}
+    <div>{{ include.left | markdownify }}</div>
+    <div>{{ include.right | markdownify }}</div>
 </div>

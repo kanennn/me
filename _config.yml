@@ -4,6 +4,7 @@ title: "" # the name of your site, e.g. ACME Corp.
 
 author: "kanen stephens"
 buymeacoffee: "buymeacoffee.com/kanenstephens"
+repo: "github.com/kanennn/kanenstephens"
 
 collections_dir: collections
 collections:

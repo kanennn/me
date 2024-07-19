@@ -48,6 +48,22 @@ header {
         text-decoration: none;
     }
 }
+
+footer {
+    margin-top: 10rem;
+    animation: $poof;
+    animation-delay: 1.5s;
+    h1 {
+        font-weight: 200;
+        padding: 0;
+        margin: 0;
+        display: inline-block;
+        font-size: 1em;
+    }
+    opacity: 0;
+    font-size: 3rem;
+    font-weight: 200;
+}
 a {
     color: $bodyColor;
     text-decoration: underline;
@@ -78,10 +94,17 @@ main {
     }
 }
 
-// .doublecolumn {
-//     column-count: 2;
-//     column-gap: 6rem;
-// }
+.doublecolumn {
+    p {
+        margin: 0;
+    }
+    p + p {
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+    }
+    column-count: 2;
+    column-gap: 6rem;
+}
 
 .inlinegrid {
     display: grid;
