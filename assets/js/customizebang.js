@@ -1,5 +1,6 @@
 const funnywords = [
     "nerd",
+    "real boy",
     "minecrafter",
     "theatre kid",
     "badass",
