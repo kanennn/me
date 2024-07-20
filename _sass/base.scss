@@ -28,7 +28,10 @@ header {
     opacity: 0;
     display: flex;
     justify-content: space-between;
-    font-size: min(3rem, 7vw);
+    font-size: min(
+        3rem,
+        7vw
+    ); //TODO we can just use relative sizing and then make the root have a mini max font size
     font-weight: 200;
     h1 {
         font-weight: 200;
@@ -58,6 +61,7 @@ header {
 }
 
 footer {
+    font-size: min(3rem, 7vw);
     margin-top: 10rem;
     animation: $poof;
     animation-delay: 1.5s;
@@ -69,7 +73,6 @@ footer {
         font-size: 1em;
     }
     opacity: 0;
-    font-size: min(3rem, 7vw);
     font-weight: 200;
 }
 a {
