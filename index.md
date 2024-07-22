@@ -72,9 +72,14 @@ you can find me working on
 -   📚 learning literally anything (and everything)
 -   🫂 people
 -   🌈 the beautiful world we live in
-    {% endcapture %}
 
+{% endcapture %}
+
+{% capture list %}
 {% include columns.html left=p1 right=p2 %}
+{% endcapture %}
+
+{% include unlist.html content=list %}
 
 {% capture contact %}
 
