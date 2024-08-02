@@ -1,10 +1,10 @@
-url: "kanenstephens.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "me.kanenstephens.com" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "kanen stephens" # the name of your site, e.g. ACME Corp.
 
 author: "kanen stephens"
 buymeacoffee: "buymeacoffee.com/kanenstephens"
-repo: "github.com/kanennn/kanenstephens"
+repo: "github.com/kanennn/me"
 
 collections_dir: collections
 collections:
